@@ -11,9 +11,9 @@ import android.widget.Toast
 import kotlinx.android.synthetic.main.item_default_recycler.view.*
 
 class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-    var image: ImageView = itemView.findViewById(R.id.image)
-    var titleText: TextView = itemView.findViewById(R.id.titleText)
-    var content: TextView = itemView.findViewById(R.id.content)
+    var image: ImageView = itemView.image
+    var titleText: TextView = itemView.titleText
+    var content: TextView = itemView.content
 
 }
 
